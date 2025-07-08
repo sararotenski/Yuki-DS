@@ -1,10 +1,12 @@
 import React from 'react'
-import NavBar from '../componets/'
+import Footer from '../components/Footer'
 
 function Reserva() {
   return (
     <div>
-      
+      <footer>
+      <Footer />
+      </footer>
     </div>
   )
 }
