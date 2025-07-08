@@ -1,12 +1,12 @@
 import React from 'react'
-import LogoYuki from '../images/logo-yuki.jpg'
+import LogoYuki from '../images/logo-yuki.png'
 
 function NavBar() {
   return (
     <>
       <nav className='menu-container'>
         <nav className='header-navigation'>
-        <img src= { LogoYuki } alt='logo do Yuki Sushi' />
+        <img className='yuki-logo' src= { LogoYuki } alt='logo do Yuki Sushi' />
         <ul className='navigation'>
           <li className='itens'>Home</li>
           <li className='itens'>Sobre nós</li>
@@ -17,9 +17,9 @@ function NavBar() {
         </ul>
         </nav>
         <div className='banner-text-container'>
+          <h1 className='banner-text' id='banner-text-opacity'>Pensou em japa? Partiu Yuki</h1>
           <h1 className='banner-text'>Pensou em japa? Partiu Yuki</h1>
-          <h1 className='banner-text'>Pensou em japa? Partiu Yuki</h1>
-          <h1 className='banner-text'>Pensou em japa? Partiu Yuki</h1>
+          <h1 className='banner-text' id='banner-text-opacity'>Pensou em japa? Partiu Yuki</h1>
         </div>
       </nav>
     </>
