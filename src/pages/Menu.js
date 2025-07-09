@@ -5,7 +5,7 @@ import Cardapio from '../images/menu-images/cardapio-yuki.jpg';
 function Menu() {
   return (
     <div>
-      <h1>NOSSO MENU</h1>
+      <p class='menu-text'>NOSSO MENU</p>
       <img className="cardapio" src={ Cardapio } alt="Cardápio"/>
       <footer>
       <Footer />
