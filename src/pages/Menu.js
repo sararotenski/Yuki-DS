@@ -1,11 +1,11 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import CardapioPage from '../components/CardapioPage';
+import CardapioSection from '../components/CardapioSection';
 
 function Menu() {
   return (
     <div>
-    <CardapioPage />
+    <CardapioSection />
       <footer>
       <Footer />
       </footer>
