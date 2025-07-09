@@ -239,12 +239,15 @@ iframe {
     font-family: "Quicksand", sans-serif;
 }
 
+.cardapio-container {
+    text-align: center;
+}
+
 .cardapio {
     width: 1400px;
     height: 2000px;
     margin-top: 70px;
     justify-content: center;
-    margin-left: 150px;
 }
 
 /* estilizando a página restaurante */
