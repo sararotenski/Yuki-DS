@@ -1,7 +1,7 @@
 import React from 'react'
 import Cardapio from '../images/menu-images/cardapio-yuki.jpg';
 
-function CardapioPage() {
+function CardapioSection() {
   return (
     <div>
       <div className='cardapio-container'>
@@ -12,4 +12,4 @@ function CardapioPage() {
   )
 }
 
-export default CardapioPage
+export default CardapioSection
